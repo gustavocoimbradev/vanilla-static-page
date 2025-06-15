@@ -1,0 +1,19 @@
+{
+  "name": "gustavocoimbra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "git add . && git commit -m 'gustavocoimbra' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocoimbradev/gustavocoimbra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavocoimbradev/gustavocoimbra/issues"
+  },
+  "homepage": "https://github.com/gustavocoimbradev/gustavocoimbra#readme"
+}
