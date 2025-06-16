@@ -46,6 +46,21 @@
         "image": "assets/img/pampa-energia.png",
         "name": "Pampa Energia",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/nts-brasil.png",
+        "name": "NTS Brasil",
+        "description": "Institucional"
+      },
+      {
+        "image": "assets/img/azul.png",
+        "name": "Azul",
+        "description": "Landing Page"
+      },
+      {
+        "image": "assets/img/wcfo-brazil.png",
+        "name": "WCFO Brazil",
+        "description": "Institucional"
       }
     ]
   }
