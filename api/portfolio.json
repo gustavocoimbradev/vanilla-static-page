@@ -21,6 +21,11 @@
         "image": "assets/img/4um.png",
         "name": "4UM",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/azevedo-travessos.png",
+        "name": "Azevedo Travessos",
+        "description": "Investidores"
       }
     ]
   }
