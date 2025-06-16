@@ -1,19 +1,25 @@
 {
-  "name": "gustavocoimbra",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "publish": "git add . && git commit -m 'gustavocoimbra' && git push"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gustavocoimbradev/gustavocoimbra.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gustavocoimbradev/gustavocoimbra/issues"
-  },
-  "homepage": "https://github.com/gustavocoimbradev/gustavocoimbra#readme"
+    "name": "gustavocoimbra",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:scss": "npx sass --watch assets/scss/style.scss:assets/css/style.min.css --style=compressed",
+        "compile:js": "npx terser assets/js/script.js -o assets/js/script.min.js -c -m",
+        "dev": "npm install && concurrently \"npm run build:scss\" \"npm run compile:js\"",
+        "publish": "git add . && git commit -m 'gustavocoimbra' && git push"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gustavocoimbradev/gustavocoimbra.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gustavocoimbradev/gustavocoimbra/issues"
+    },
+    "homepage": "https://github.com/gustavocoimbradev/gustavocoimbra#readme",
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
 }
