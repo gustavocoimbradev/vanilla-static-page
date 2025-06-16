@@ -8,66 +8,108 @@
 </head>
 <body>
     <main>
-        <section class="s-hero">
+        <section class="s-hero" id="hero">
             <div class="c-container">
-                <h1>Desenvolvo <mark>soluções digitais</mark> de maneira moderna e eficaz</h1>
-                <p>Dou vida a protótipos e ideias, criando sites e sistemas funcionais, modernos e prontos para uso.</p>
-                <a href="#" class="c-button">Veja meu portifólio</a>
+                <script defer>
+                    document.addEventListener('DOMContentLoaded', function(event) {
+                        const container = document.querySelector('.s-hero .c-container');
+                        axios.get('/api/hero.json')
+                        .then(function(response) {
+                            const data = response.data;
+                            const html = `
+                                <h1>${data.heading}</h1>
+                                <p>${data.description}</p>
+                                <a href="${data.button.href}" target="${data.button.target}" class="c-button">${data.button.title}</a>    
+                            `;
+                            container.insertAdjacentHTML('beforeend', html);
+                        })
+                    })
+                </script>
             </div>
         </section>
-        <section class="s-about">
+        <section class="s-about" id="about">
             <div class="c-container">
-                <h5>Quem sou</h5>
-                <h1>Gustavo Coimbra</h1>
-                <h6>Desenvolvedor Web</h6>
-                <p>Meu nome é Gustavo Coimbra, sou desenvolvedor com 4 anos de experiência no mercado, especialista na criação de sites institucionais, landing pages e sistemas web. Já atuei em projetos para companhias de renome, como Santander, Bradesco, Itaú, entre outros.</p>
+                <script defer>
+                    document.addEventListener('DOMContentLoaded', function(event) {
+                        const container = document.querySelector('.s-about .c-container');
+                        axios.get('/api/about.json')
+                        .then(function(response){
+                            const data = response.data;
+                            const html = `
+                                <h5>${data.preheading}</h5>
+                                <h1>${data.heading}</h1>
+                                <h6>${data.subheading}</h6>
+                                <p>${data.description}</p>
+                            `;
+                            container.insertAdjacentHTML('beforeend', html);
+                        })
+                    })
+                </script>
             </div>
         </section>
-        <section class="s-experiences">
+        <section class="s-experiences" id="experiences">
             <div class="c-container">
-                <h5>Onde já atuei</h5>
-                <h1>Experiências</h1>
-                <div>
-                    <article>
-                        <h3>MZ Group</h3>
-                        <small>jun. 2023 - o momento</small>
-                        <p>Desenvolvi temas Wordpress para sites de RI, Landing Pages e Sites Institucionais. Atuei em projetos para o <a href="https://www.santander.com.br/ri/" rel="nofollow" target="_blank">Santander</a>, <a href="https://www.bradescori.com.br/" rel="nofollow" target="_blank">Bradesco</a>, <a href="https://www.azulmaisforte.com.br/" rel="nofollow" target="_blank">Azul</a> e entre outras companhias de renome.</p>
-                    </article>
-                    <article>
-                        <h3>Fadiva</h3>
-                        <small>dez. 2021 - o momento</small>
-                        <p>Atuei no desenvolvimento de sistemas web para estudantes e professores. Desenvolvi um portal do aluno, onde os estudantes podem visualizar notas, faltas, avisos, vagas de estágio, etc. Também desenvolvi um AVA (Ambiente Virtual de Aprendizagem), utilizando Laravel e SQL Server.</p>
-                    </article>
-                    <article>
-                        <h3>C3technology</h3>
-                        <small>ago. 2021 - jan. 2022</small>
-                        <p>Iniciei minha carreira desenvolvendo soluções web para os colaboradores e clientes da C3technology. Foram criados sistemas para gestão interna da empresa. Também participei ativamente na criação de um B2B, portal destinado aos revendedores/lojistas de produtos da marca.</p>
-                    </article>
-                </div>
+                <script defer>
+                    document.addEventListener('DOMContentLoaded', (event) => {
+                        const container = document.querySelector('.s-experiences .c-container');
+                        axios.get('/api/experiences.json')
+                        .then(function(response){
+                            const data = response.data;
+                            const items = data.items;
+                            let html = `
+                                <h5>${data.preheading}</h5>
+                                <h1>${data.heading}</h1>
+                            `;
+                            items.forEach(function(item,index){
+                                if (index === 0) html += `<div>` 
+                                html += `
+                                    <article>
+                                        <h3>${item.company}</h3>
+                                        <small>${item.duration}</small>
+                                        <p>${item.description}</p>
+                                    </article>
+                                `;
+                                if (index === items.length) html += `</div>` 
+                            })
+                            container.insertAdjacentHTML('beforeend', html);
+                        })
+                    })
+                </script>
             </div>
         </section>
-        <section class="s-portfolio">
+        <section class="s-portfolio" id="portfolio">
             <div class="c-container">
-                <h5>Projetos reais</h5>
-                <h1>Portfolio</h1>
-                <div>
-                    <figure>
-                        <img src="assets/img/santander.png" alt="" width="400" height="800">
-                        <figcaption>
-                            <h2>Santander</h2>
-                            <p>Investidores</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="assets/img/bradesco.png" alt="" width="400" height="800">
-                        <figcaption>
-                            <h2>Bradesco</h2>
-                            <p>Investidores</p>
-                        </figcaption>
-                    </figure>
-                </div>
+                <script defer>
+                    document.addEventListener('DOMContentLoaded', (event) => {
+                        const container = document.querySelector('.s-portfolio .c-container');
+                        axios.get('/api/portfolio.json')
+                        .then(function(response){
+                            const data = response.data;
+                            const items = data.items;
+                            let html = `
+                                <h5>${data.preheading}</h5>
+                                <h1>${data.heading}</h1>
+                            `;
+                            items.forEach(function(item,index){
+                                if (index === 0) html += `<div>` 
+                                html += `
+                                    <figure class="js-toggle-portfolio">
+                                        <img src="${item.image}" alt="" width="400" height="800">
+                                        <figcaption>
+                                            <h2>${item.name}</h2>
+                                            <p>${item.description}</p>
+                                        </figcaption>
+                                    </figure>
+                                `;
+                                if (index === items.length) html += `</div>` 
+                            })
+                            container.insertAdjacentHTML('beforeend', html);
+                        })
+                    })
+                </script>
             </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>

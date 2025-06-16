@@ -1,0 +1,22 @@
+{
+    "preheading": "Onde já atuei",
+    "heading": "Experiências",
+    "items": [
+      {
+        "company": "MZ Group",
+        "duration": "jun. 2023 - o momento",
+        "description": "Desenvolvi temas Wordpress para sites de RI, Landing Pages e Sites Institucionais. Atuei em projetos para o <a href=\"https://www.santander.com.br/ri/\" rel=\"nofollow\" target=\"_blank\">Santander</a>, <a href=\"https://www.bradescori.com.br/\" rel=\"nofollow\" target=\"_blank\">Bradesco</a>, <a href=\"https://www.azulmaisforte.com.br/\" rel=\"nofollow\" target=\"_blank\">Azul</a> e entre outras companhias de renome."
+      },
+      {
+        "company": "Fadiva",
+        "duration": "dez. 2021 - o momento",
+        "description": "Atuei no desenvolvimento de sistemas web para estudantes e professores. Desenvolvi um portal do aluno, onde os estudantes podem visualizar notas, faltas, avisos, vagas de estágio, etc. Também desenvolvi um AVA (Ambiente Virtual de Aprendizagem), utilizando Laravel e SQL Server."
+      },
+      {
+        "company": "C3technology",
+        "duration": "ago. 2021 - jan. 2022",
+        "description": "Iniciei minha carreira desenvolvendo soluções web para os colaboradores e clientes da C3technology. Foram criados sistemas para gestão interna da empresa. Também participei ativamente na criação de um B2B, portal destinado aos revendedores/lojistas de produtos da marca."
+      }
+    ]
+  }
+  
