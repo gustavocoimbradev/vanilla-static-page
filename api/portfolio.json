@@ -61,6 +61,16 @@
         "image": "assets/img/wcfo-brazil.png",
         "name": "WCFO Brazil",
         "description": "Institucional"
+      },
+      {
+        "image": "assets/img/mills.png",
+        "name": "Mills",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/mallplaza.png",
+        "name": "Mallplaza",
+        "description": "Investidores"
       }
     ]
   }
