@@ -26,6 +26,21 @@
         "image": "assets/img/azevedo-travessos.png",
         "name": "Azevedo Travessos",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/serena.png",
+        "name": "Serena",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/evoltz.png",
+        "name": "Evoltz",
+        "description": "Institucional"
+      },
+      {
+        "image": "assets/img/minum-genco.png",
+        "name": "Minum Genco",
+        "description": "Investidores"
       }
     ]
   }
