@@ -1,0 +1,25 @@
+.s-hero {
+    min-height: 100dvh;
+    text-align: center;
+    >.c-container {
+        align-items: center;
+        @include desktop {
+            align-items: flex-start;
+        }
+    }
+    @include desktop {
+        text-align: left;
+    } 
+    h1 {
+        mark {
+            color: color(accent);
+        }
+    }
+    p {
+        color: rgba(color(light), .7);
+    }
+    .c-button {
+        margin: 1rem 0 0;
+    }
+    
+} 

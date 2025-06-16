@@ -1,0 +1,14 @@
+.c-button {
+    padding: .9rem 2rem;
+    border-radius: 100rem;
+    background: color(accent);
+    color: color(accent, contrast);
+    font-weight: 500;
+    width: max-content;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background: darken(color(accent), 5%);
+        color: color(light);
+        padding: .9rem 2.5rem;
+    }
+}

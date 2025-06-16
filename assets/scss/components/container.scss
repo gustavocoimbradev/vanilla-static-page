@@ -1,0 +1,15 @@
+.c-container {
+    margin: 0 auto;
+    width: 1110px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 60px 0;
+    max-width: calc(100% - 60px);
+    @include desktop {
+        max-width: 100%;
+    }
+}

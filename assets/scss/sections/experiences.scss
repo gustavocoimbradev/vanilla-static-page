@@ -1,0 +1,29 @@
+.s-experiences {
+    background: color(dark);
+    h5 {
+        color: color(accent);
+    }
+    p {
+        color: rgba(color(light), .7);
+    }
+    >.c-container {
+        >div {
+            >article {
+                padding: 1.5rem 0;
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                a {
+                    text-decoration: underline;
+                    color: inherit;
+                }
+                &:first-of-type {
+                    padding-top: 1rem;
+                }
+                &:not(:first-of-type) {
+                    border-top: dashed 1px rgba(color(light), .3);
+                }
+            }
+        }
+    }
+}
