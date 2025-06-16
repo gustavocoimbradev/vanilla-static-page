@@ -13,6 +13,21 @@
         "description": "Investidores"
       },
       {
+        "image": "assets/img/americanas.png",
+        "name": "Americanas",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/azul.png",
+        "name": "Azul",
+        "description": "Landing Page"
+      },
+      {
+        "image": "assets/img/evoltz.png",
+        "name": "Evoltz",
+        "description": "Institucional"
+      },
+      {
         "image": "assets/img/skopos.png",
         "name": "Skopos",
         "description": "Investidores"
@@ -33,11 +48,6 @@
         "description": "Investidores"
       },
       {
-        "image": "assets/img/evoltz.png",
-        "name": "Evoltz",
-        "description": "Institucional"
-      },
-      {
         "image": "assets/img/minum-genco.png",
         "name": "Minum Genco",
         "description": "Investidores"
@@ -51,11 +61,6 @@
         "image": "assets/img/nts-brasil.png",
         "name": "NTS Brasil",
         "description": "Institucional"
-      },
-      {
-        "image": "assets/img/azul.png",
-        "name": "Azul",
-        "description": "Landing Page"
       },
       {
         "image": "assets/img/wcfo-brazil.png",
