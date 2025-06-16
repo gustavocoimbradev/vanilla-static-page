@@ -81,6 +81,11 @@
         "image": "assets/img/super-league-news.png",
         "name": "Super League News",
         "description": "Landing Page"
+      },
+      {
+        "image": "assets/img/azquest.png",
+        "name": "AZ Quest",
+        "description": "Investidores"
       }
     ]
   }
