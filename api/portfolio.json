@@ -41,6 +41,11 @@
         "image": "assets/img/minum-genco.png",
         "name": "Minum Genco",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/pampa-energia.png",
+        "name": "Pampa Energia",
+        "description": "Investidores"
       }
     ]
   }
