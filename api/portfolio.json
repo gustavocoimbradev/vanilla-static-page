@@ -76,6 +76,11 @@
         "image": "assets/img/mallplaza.png",
         "name": "Mallplaza",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/super-league-news.png",
+        "name": "Super League News",
+        "description": "Landing Page"
       }
     ]
   }
