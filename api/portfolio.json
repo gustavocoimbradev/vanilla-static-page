@@ -5,12 +5,22 @@
       {
         "image": "assets/img/santander.png",
         "name": "Santander",
-        "description": "Investors"
+        "description": "Investidores"
       },
       {
         "image": "assets/img/bradesco.png",
         "name": "Bradesco",
-        "description": "Investors"
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/skopos.png",
+        "name": "Skopos",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/4um.png",
+        "name": "4UM",
+        "description": "Investidores"
       }
     ]
   }
