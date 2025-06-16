@@ -86,6 +86,11 @@
         "image": "assets/img/azquest.png",
         "name": "AZ Quest",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/a-better-xwell.png",
+        "name": "A Better Xwell",
+        "description": "Investidores"
       }
     ]
   }
