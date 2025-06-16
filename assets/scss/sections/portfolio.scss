@@ -8,13 +8,19 @@
     }
     >.c-container {
         >div {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            @include desktop {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
             >figure {
                 height: 250px;
                 overflow: hidden;
                 border-radius: 1rem;
                 position: relative;
-                margin: 2rem 0;
                 cursor: pointer;
+
                 &, *, &::before {
                     transition: all .3s ease-in-out;
                 }
