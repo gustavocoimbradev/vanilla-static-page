@@ -91,6 +91,21 @@
         "image": "assets/img/a-better-xwell.png",
         "name": "A Better Xwell",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/phronesis.png",
+        "name": "Phronesis",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/grupo-decio.png",
+        "name": "Grupo Decio",
+        "description": "Investidores"
+      },
+      {
+        "image": "assets/img/blp-capital.png",
+        "name": "BLP Capital",
+        "description": "Investidores"
       }
     ]
   }
