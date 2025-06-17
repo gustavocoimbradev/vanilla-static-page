@@ -57,6 +57,15 @@
       ]
     },
     {
+      "image": "assets/img/grupo-potencial.png",
+      "name": "Grupo Potencial",
+      "type": "Investidores",
+      "badges": [
+        { "label": "Wordpress", "color": "#fff" },
+        { "label": "MZ Group", "color": "#fff" }
+      ]
+    },
+    {
       "image": "assets/img/4um.png",
       "name": "4UM",
       "type": "Investidores",
