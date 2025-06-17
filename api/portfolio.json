@@ -126,6 +126,11 @@
         "image": "assets/img/patria-pice.png",
         "name": "Pátria Pice",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/locaweb.png",
+        "name": "Locaweb",
+        "description": "Investidores"
       }
     ]
   }
