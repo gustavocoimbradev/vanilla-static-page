@@ -6,169 +6,233 @@
       "image": "assets/img/santander.png",
       "name": "Santander",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/bradesco.png",
       "name": "Bradesco",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/americanas.png",
       "name": "Americanas",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/azul.png",
       "name": "Azul",
       "description": "Landing Page",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/evoltz.png",
       "name": "Evoltz",
       "description": "Institucional",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/skopos.png",
       "name": "Skopos",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/4um.png",
       "name": "4UM",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/azevedo-travessos.png",
       "name": "Azevedo Travessos",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/serena.png",
       "name": "Serena",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/minum-genco.png",
       "name": "Minum Genco",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/ybyra.png",
       "name": "Ybyra",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/pampa-energia.png",
       "name": "Pampa Energia",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/nts-brasil.png",
       "name": "NTS Brasil",
       "description": "Institucional",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/wcfo-brazil.png",
       "name": "WCFO Brazil",
       "description": "Institucional",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/mills.png",
       "name": "Mills",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/mallplaza.png",
       "name": "Mallplaza",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/super-league-news.png",
       "name": "Super League News",
       "description": "Landing Page",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/azquest.png",
       "name": "AZ Quest",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/a-better-xwell.png",
       "name": "A Better Xwell",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/phronesis.png",
       "name": "Phronesis",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/grupo-decio.png",
       "name": "Grupo Decio",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/blp-capital.png",
       "name": "BLP Capital",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/harbour-capital.png",
       "name": "Harbour Capital",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/galoppo.png",
       "name": "Galoppo",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/tech4humans.png",
       "name": "Tech4humans",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/patria-pice.png",
       "name": "Pátria Pice",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/locaweb.png",
       "name": "Locaweb",
       "description": "Investidores",
-      "from": "MZ"
+      "badges": [
+        { "label": "MZ", "color": "#986dff" }
+      ]
     },
     {
       "image": "assets/img/rad-advogados.png",
       "name": "RAD Advogados",
       "description": "Landing Page",
-      "from": "IB"
+      "badges": [
+        { "label": "IB", "color": "#986dff" }
+      ]
+    },
+    {
+      "image": "assets/img/viana-e-arantes.png",
+      "name": "Viana & Arantes",
+      "description": "Institucional",
+      "badges": [
+        { "label": "IB", "color": "#986dff" }
+      ]
     }
   ]
 }

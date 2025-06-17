@@ -92,6 +92,13 @@
                             `;
                             items.forEach(function(item,index){
                                 if (index === 0) html += `<div>` 
+                                const badges = item.badges;
+                                let badgesHTML = '';
+                                badges.forEach(function(badge,_){
+                                    badgesHTML += `
+                                        <span style="background: ${badge.color}">${badge.label}</span>
+                                    `;
+                                });
                                 html += `
                                     <figure class="js-toggle-portfolio">
                                         <img src="${item.image}" alt="" width="400" height="800">
@@ -99,9 +106,7 @@
                                             <h2>${item.name}</h2>
                                             <p>${item.description}</p>
                                         </figcaption>
-                                        <div>
-                                            <span>${item.from}</span>    
-                                        </div>
+                                        <div>${badgesHTML}</div>
                                     </figure>
                                 `;
                                 if (index === items.length) html += `</div>` 
