@@ -313,7 +313,7 @@
       "name": "Ferreira Júnior",
       "description": "Imobiliária",
       "badges": [
-        { "label": "PHP/MySQL", "color": "#fff" },
+        { "label": "PHP/SQL", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
     },
@@ -332,6 +332,15 @@
       "description": "Educacional",
       "badges": [
         { "label": "Laravel", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/fadiva-digital.png",
+      "name": "Fadiva Digital",
+      "description": "Educacional",
+      "badges": [
+        { "label": "PHP/SQL", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
     }
