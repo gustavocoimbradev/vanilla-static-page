@@ -1,0 +1,6 @@
+.s-footer {
+    text-align: center;
+    @include desktop {
+        text-align: left;
+    }
+}

@@ -38,10 +38,13 @@
               .then(function (response) {
                 const data = response.data;
                 const html = `
-                                <h5>${data.preheading}</h5>
-                                <h1>${data.heading}</h1>
-                                <h6>${data.subheading}</h6>
-                                <p>${data.description}</p>
+                                <figure><img src='/assets/img/me2.png' alt='' width='250' height='400'/></figure>
+                                <div>
+                                  <h5>${data.preheading}</h5>
+                                  <h1>${data.heading}</h1>
+                                  <h6>${data.subheading}</h6>
+                                  <p>${data.description}</p>
+                                </div>
                             `;
                 container.insertAdjacentHTML('beforeend', html);
               })
@@ -509,7 +512,7 @@
         </ul>
       </div>
     </section>
-    <footer>
+    <footer class="s-footer" id="footer">
       <div class="c-container">
         <span>© <time class="js-year"></time> Gustavo Coimbra - All rights reserved</span>
         <script defer>

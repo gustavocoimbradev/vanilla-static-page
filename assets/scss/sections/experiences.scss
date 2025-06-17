@@ -7,7 +7,12 @@
         color: rgba(color(light), .7);
     }
     >.c-container {
+        text-align: center;
+        @include desktop {
+            text-align: left;
+        }
         >div {
+            text-align: left;
             >article {
                 padding: 1.5rem 0;
                 display: flex;

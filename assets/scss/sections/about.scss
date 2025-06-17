@@ -1,9 +1,48 @@
 .s-about {
     background: color(dark);
-    h5 {
-        color: color(accent);
-    }
-    p {
-        color: rgba(color(light), .7);
+
+
+    .c-container {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+
+        @include desktop {
+            align-items: center;
+            flex-direction: row;
+        }
+
+        figure {
+            img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 99rem;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            text-align: center;
+            @include desktop {
+                text-align: left;
+            }
+            h5 {
+                color: color(accent);
+            }
+        
+            p {
+                color: rgba(color(light), .7);
+            }
+            h6 {
+                margin: 0 0 1rem;
+            }
+        
+        }
+
     }
 }
