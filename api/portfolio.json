@@ -116,6 +116,11 @@
         "image": "assets/img/galoppo.png",
         "name": "Galoppo",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/tech4humans.png",
+        "name": "Tech4humans",
+        "description": "Investidores"
       }
     ]
   }
