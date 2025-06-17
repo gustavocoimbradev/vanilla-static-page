@@ -231,15 +231,27 @@
 
                 updateOptions()
 
+                const closeAllDialogs = () => {
+                  const dialogs = document.querySelectorAll(`.js-dialog-portfolio`);
+                  dialog.forEach(function (dialog, _) {
+                    dialog.close();
+                  })
+                }
+
+                const openDialog = (key) => {
+                  const dialog = document.querySelector(`.js-dialog-portfolio[data-key='${key}']`);
+                  dialog.showModal();
+                }
 
                 const toggleDialog = (key) => {
                   const dialog = document.querySelector(`.js-dialog-portfolio[data-key='${key}']`);
                   if (dialog.open) {
-                    dialog.close();
+                    closeAllDialogs();
                   } else {
-                    dialog.showModal();
+                    openDialog(key);
                   }
                 }
+
 
                 itemsDOM.forEach(function (item, key) {
 
@@ -248,6 +260,21 @@
                   })
 
                 })
+
+                document.addEventListener('click', (e) => {
+                  if (
+                    e.target.classList.contains('js-close-all-dialogs') ||
+                    (e.target.tagName === 'DIALOG')
+                  ) {
+                    closeAllDialogs();
+                  }
+                });
+
+                document.addEventListener('keydown', (e) => {
+                  if (e.key === 'Escape') {
+                    closeAllDialogs();
+                  }
+                });
 
               })
 
