@@ -233,7 +233,7 @@
 
                 const closeAllDialogs = () => {
                   const dialogs = document.querySelectorAll(`.js-dialog-portfolio`);
-                  dialog.forEach(function (dialog, _) {
+                  dialogs.forEach(function (dialog, _) {
                     dialog.close();
                   })
                 }
@@ -261,13 +261,12 @@
 
                 })
 
-                document.addEventListener('click', (e) => {
-                  if (
-                    e.target.classList.contains('js-close-all-dialogs') ||
-                    (e.target.tagName === 'DIALOG')
-                  ) {
-                    closeAllDialogs();
-                  }
+                document.querySelectorAll('.js-dialog-portfolio').forEach(dialog => {
+                  dialog.addEventListener('click', (e) => {
+                    if (e.target === dialog) {
+                      closeAllDialogs();
+                    }
+                  });
                 });
 
                 document.addEventListener('keydown', (e) => {

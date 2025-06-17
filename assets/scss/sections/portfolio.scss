@@ -169,6 +169,10 @@
             transform: translate(-50%, -50%);
             height: 90dvh;
             overflow-y: scroll;
+            align-items: center;
+            &[open] {
+                display: flex;
+            }
             &::backdrop {
                 background: rgba(color(dark), .6);
                 backdrop-filter: blur(5px);

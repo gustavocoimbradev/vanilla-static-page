@@ -25,6 +25,9 @@ html {
     }
 }
 
+body:has(dialog[open]), html:has(dialog[open]) {
+    overflow-y: hidden;
+  }
 ::selection, ::-moz-selection {
     background-color: color(accent);
     color: color(light);
