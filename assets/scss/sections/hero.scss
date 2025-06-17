@@ -14,9 +14,15 @@
         mark {
             color: color(accent);
         }
+        @include desktop {
+            max-width: 500px;
+        }
     }
     p {
         color: rgba(color(light), .7);
+        @include desktop {
+            max-width: 500px;
+        }
     }
     .c-button {
         margin: 1rem 0 0;

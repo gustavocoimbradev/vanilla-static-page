@@ -352,6 +352,15 @@
         { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
+    },
+    {
+      "image": "assets/img/insiderblue.png",
+      "name": "Insiderblue",
+      "description": "Landing Page",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
     }
   ]
 }
