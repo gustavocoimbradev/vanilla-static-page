@@ -313,7 +313,7 @@
       "name": "Ferreira Júnior",
       "description": "Imobiliária",
       "badges": [
-        { "label": "PHP/SQL", "color": "#fff" },
+        { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
     },
@@ -340,7 +340,7 @@
       "name": "Fadiva Digital",
       "description": "Educacional",
       "badges": [
-        { "label": "PHP/SQL", "color": "#fff" },
+        { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
     },
@@ -349,7 +349,7 @@
       "name": "Carteirinha Digital",
       "description": "Educacional",
       "badges": [
-        { "label": "PHP/SQL", "color": "#fff" },
+        { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
     }
