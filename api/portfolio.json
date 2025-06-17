@@ -111,6 +111,11 @@
         "image": "assets/img/harbour-capital.png",
         "name": "Harbour Capital",
         "description": "Investidores"
+      },
+      {
+        "image": "assets/img/galoppo.png",
+        "name": "Galoppo",
+        "description": "Investidores"
       }
     ]
   }
