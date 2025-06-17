@@ -1,48 +1,60 @@
 .s-portfolio {
     background: color(dark);
+
     &__header {
         display: flex;
         flex-direction: column;
         gap: .5rem;
+
         @include desktop {
             flex-direction: row;
             justify-content: space-between;
             gap: 2rem;
         }
+
         >div {
             h5 {
                 color: color(accent);
             }
+
             p {
                 color: rgba(color(light), .7);
             }
         }
+
         >form {
             display: flex;
             gap: 1rem;
             align-items: center;
             margin: 1rem 0 1.5rem;
+
             select {
                 background: transparent;
                 border: solid 1px color(light);
                 color: color(light);
                 padding: .6rem .8rem;
                 border-radius: 1rem;
+
                 option {
-                    &, &:checked {
+
+                    &,
+                    &:checked {
                         color: color(light, contrast);
                     }
                 }
             }
         }
     }
+
     &__items {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
+
         @include desktop {
             grid-template-columns: 1fr 1fr 1fr;
         }
+
         >figure {
             height: 250px;
             overflow: hidden;
@@ -50,12 +62,17 @@
             position: relative;
             cursor: pointer;
             display: none;
+
             &.is-visible {
                 display: block;
             }
-            &, *, &::before {
+
+            &,
+            *,
+            &::before {
                 transition: all .3s ease-in !important;
             }
+
             &::before {
                 content: '';
                 width: 100%;
@@ -67,6 +84,7 @@
                 left: 0;
                 z-index: 2;
             }
+
             img {
                 width: 100%;
                 height: 100%;
@@ -74,28 +92,32 @@
                 object-position: top;
                 position: relative;
                 z-index: 1;
-                filter: grayscale(70%);
+                filter: grayscale(40%);
             }
+
             figcaption {
                 pointer-events: none;
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
                 z-index: 3;
                 display: flex;
                 flex-direction: column;
                 gap: .2rem;
                 text-align: center;
                 width: calc(100% - 2rem);
+
                 h2 {
                     font-size: 1.2rem;
                 }
+
                 p {
                     font-size: 1rem;
                     color: rgba(color(light), .8);
                 }
             }
+
             div {
                 position: absolute;
                 bottom: 0;
@@ -108,28 +130,49 @@
                 width: 100%;
                 padding: .8rem;
                 z-index: 2;
+
                 >span {
                     padding: .4rem;
                     padding-bottom: .2rem;
                     border-radius: .5rem;
-                    z-index: 2;   
+                    z-index: 2;
                     display: grid;
                     place-items: center;
                     font-size: .7rem;
                     border: solid 1px;
                 }
             }
+
             &:hover {
-                filter: unset;
+                img {
+                    filter: unset;
+                }
+
                 &::before {
                     opacity: 0;
                 }
+
                 figcaption {
                     opacity: 0;
                 }
+
                 div {
                     opacity: 0;
                 }
+            }
+        }
+
+        >dialog {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 90dvh;
+            overflow-y: scroll;
+
+            img {
+                width: 90dvh;
+                height: auto;
             }
         }
     }

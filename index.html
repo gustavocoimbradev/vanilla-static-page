@@ -2,121 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gustavo Coimbra</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Coimbra</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
 <body>
-    <main>
-        <section class="s-hero" id="hero">
-            <div class="c-container">
-                <script defer>
-                    document.addEventListener('DOMContentLoaded', function (event) {
-                        const container = document.querySelector('.s-hero .c-container');
-                        axios.get('/api/hero.json')
-                            .then(function (response) {
-                                const data = response.data;
-                                const html = `
+  <main>
+    <section class="s-hero" id="hero">
+      <div class="c-container">
+        <script defer>
+          document.addEventListener('DOMContentLoaded', function (event) {
+            const container = document.querySelector('.s-hero .c-container');
+            axios.get('/api/hero.json')
+              .then(function (response) {
+                const data = response.data;
+                const html = `
                                 <h1>${data.heading}</h1>
                                 <p>${data.description}</p>
                                 <a href="${data.button.href}" target="${data.button.target}" class="c-button">${data.button.title}</a>    
                             `;
-                                container.insertAdjacentHTML('beforeend', html);
-                            })
-                    })
-                </script>
-            </div>
-        </section>
-        <section class="s-about" id="about">
-            <div class="c-container">
-                <script defer>
-                    document.addEventListener('DOMContentLoaded', function (event) {
-                        const container = document.querySelector('.s-about .c-container');
-                        axios.get('/api/about.json')
-                            .then(function (response) {
-                                const data = response.data;
-                                const html = `
+                container.insertAdjacentHTML('beforeend', html);
+              })
+          })
+        </script>
+      </div>
+    </section>
+    <section class="s-about" id="about">
+      <div class="c-container">
+        <script defer>
+          document.addEventListener('DOMContentLoaded', function (event) {
+            const container = document.querySelector('.s-about .c-container');
+            axios.get('/api/about.json')
+              .then(function (response) {
+                const data = response.data;
+                const html = `
                                 <h5>${data.preheading}</h5>
                                 <h1>${data.heading}</h1>
                                 <h6>${data.subheading}</h6>
                                 <p>${data.description}</p>
                             `;
-                                container.insertAdjacentHTML('beforeend', html);
-                            })
-                    })
-                </script>
-            </div>
-        </section>
-        <section class="s-experiences" id="experiences">
-            <div class="c-container">
-                <script defer>
-                    document.addEventListener('DOMContentLoaded', (event) => {
-                        const container = document.querySelector('.s-experiences .c-container');
-                        axios.get('/api/experiences.json')
-                            .then(function (response) {
-                                const data = response.data;
-                                const items = data.items;
-                                let html = `
+                container.insertAdjacentHTML('beforeend', html);
+              })
+          })
+        </script>
+      </div>
+    </section>
+    <section class="s-experiences" id="experiences">
+      <div class="c-container">
+        <script defer>
+          document.addEventListener('DOMContentLoaded', (event) => {
+            const container = document.querySelector('.s-experiences .c-container');
+            axios.get('/api/experiences.json')
+              .then(function (response) {
+                const data = response.data;
+                const items = data.items;
+                let html = `
                                 <h5>${data.preheading}</h5>
                                 <h1>${data.heading}</h1>
                             `;
-                                items.forEach(function (item, index) {
-                                    if (index === 0) html += `<div>`
-                                    html += `
+                items.forEach(function (item, index) {
+                  if (index === 0) html += `<div>`
+                  html += `
                                     <article>
                                         <h3>${item.company}</h3>
                                         <small>${item.duration}</small>
                                         <p>${item.description}</p>
                                     </article>
                                 `;
-                                    if (index === items.length) html += `</div>`
-                                })
-                                container.insertAdjacentHTML('beforeend', html);
-                            })
-                    })
-                </script>
-            </div>
-        </section>
-        <section class="s-portfolio" id="portfolio">
-            <div class="c-container">
-                <script defer>
-                    document.addEventListener('DOMContentLoaded', () => {
-                      const container = document.querySelector('.s-portfolio .c-container')
-                      axios.get('/api/portfolio.json')
-                        .then(response => {
-                          const data = response.data
-                          const items = data.items
-                          let labels = []
-                          let types = []
+                  if (index === items.length) html += `</div>`
+                })
+                container.insertAdjacentHTML('beforeend', html);
+              })
+          })
+        </script>
+      </div>
+    </section>
+    <section class="s-portfolio" id="portfolio">
+      <div class="c-container">
+        <script defer>
+          document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.s-portfolio .c-container')
+            axios.get('/api/portfolio.json')
+              .then(response => {
+                const data = response.data
+                const items = data.items
+                let labels = []
+                let types = []
 
-                          const shuffle = (array) => {
-                            for (let i = array.length - 1; i > 0; i--) {
-                                const j = Math.floor(Math.random() * (i + 1));
-                                [array[i], array[j]] = [array[j], array[i]];
-                            }
-                            return array;
-                          }
+                const shuffle = (array) => {
+                  for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                  }
+                  return array;
+                }
 
-                          shuffle(items);
-                    
-                          items.forEach(item => {
-                            if (!labels.includes(item.badges[0].label)) labels.push(item.badges[0].label)
-                            if (!types.includes(item.type)) types.push(item.type)
-                          })
-                    
-                          let labelsHTML = ''
-                          labels.forEach(label => {
-                            labelsHTML += `<option>${label}</option>`
-                          })
-                    
-                          let typesHTML = ''
-                          types.forEach(type => {
-                            typesHTML += `<option>${type}</option>`
-                          })
-                    
-                          let html = `
+                shuffle(items);
+
+                items.forEach(item => {
+                  if (!labels.includes(item.badges[0].label)) labels.push(item.badges[0].label)
+                  if (!types.includes(item.type)) types.push(item.type)
+                })
+
+                let labelsHTML = ''
+                labels.forEach(label => {
+                  labelsHTML += `<option>${label}</option>`
+                })
+
+                let typesHTML = ''
+                types.forEach(type => {
+                  typesHTML += `<option>${type}</option>`
+                })
+
+                let html = `
                             <div class="s-portfolio__header">
                               <div>
                                 <h5>${data.preheading}</h5>
@@ -134,15 +134,15 @@
                               </form>
                             </div>
                           `
-                    
-                          items.forEach((item, index) => {
-                            if (index === 0) html += `<div class="s-portfolio__items">`
-                            let badgesHTML = ''
-                            item.badges.forEach(badge => {
-                              badgesHTML += `<span>${badge.label}</span>`
-                            })
-                            html += `
-                              <figure class="js-item-portfolio is-visible" data-type="${item.type}" data-technologies="${item.badges[0].label}" data-company="${item.badges[1]?.label || ''}">
+
+                items.forEach((item, index) => {
+                  if (index === 0) html += `<div class="s-portfolio__items">`
+                  let badgesHTML = ''
+                  item.badges.forEach(badge => {
+                    badgesHTML += `<span>${badge.label}</span>`
+                  })
+                  html += `
+                              <figure data-key="${index}" class="js-item-portfolio is-visible" data-type="${item.type}" data-technologies="${item.badges[0].label}" data-company="${item.badges[1]?.label || ''}">
                                 <img src="${item.image}" alt="" width="400" height="800">
                                 <figcaption>
                                   <h2>${item.name}</h2>
@@ -150,91 +150,116 @@
                                 </figcaption>
                                 <div>${badgesHTML}</div>
                               </figure>
+                              <dialog class="js-dialog-portfolio" data-key="${index}">
+                                <img src="${item.image}" alt="" width="400" height="800">
+                              </dialog>
                             `
-                            if (index === items.length - 1) html += `</div>`
-                          })
-                    
-                          container.insertAdjacentHTML('beforeend', html)
-                    
-                          const selectTechnologies = document.querySelector('.js-filter-technologies')
-                          const selectTypes = document.querySelector('.js-filter-types')
-                          const itemsDOM = document.querySelectorAll('.js-item-portfolio')
-                          const counter = document.querySelector('.js-portfolio-count')
-                    
-                          function updateSelectOptions(select, optionsArray, defaultLabel) {
-                            const prevValue = select.value
-                            select.innerHTML = `<option value="*" selected>${defaultLabel}</option>`
-                            optionsArray.forEach(opt => {
-                              select.insertAdjacentHTML('beforeend', `<option value="${opt}">${opt}</option>`)
-                            })
-                            if (optionsArray.includes(prevValue)) {
-                              select.value = prevValue
-                            } else {
-                              select.value = '*'
-                            }
-                          }
-                    
-                          function updateOptions() {
-                            const tech = selectTechnologies.value
-                            const type = selectTypes.value
-                            let count = 0
-                    
-                            let filteredTypes = new Set()
-                            let filteredLabels = new Set()
-                    
-                            itemsDOM.forEach(item => {
-                              const itemTech = item.getAttribute('data-technologies')
-                              const itemType = item.getAttribute('data-type')
-                    
-                              const matchTech = tech === '*' || itemTech === tech
-                              const matchType = type === '*' || itemType === type
-                    
-                              if (matchTech && matchType) count++
-                    
-                              if (tech === '*' && (type === '*' || matchType)) filteredLabels.add(itemTech)
-                              if (type === '*' && (tech === '*' || matchTech)) filteredTypes.add(itemType)
-                              if (tech !== '*' && type !== '*' && matchTech && matchType) {
-                                filteredLabels.add(itemTech)
-                                filteredTypes.add(itemType)
-                              }
-                            })
-                    
-                            itemsDOM.forEach(item => {
-                              const itemTech = item.getAttribute('data-technologies')
-                              const itemType = item.getAttribute('data-type')
-                              const show = (tech === '*' || itemTech === tech) && (type === '*' || itemType === type)
-                              item.classList.toggle('is-visible', show)
-                            })
-                    
-                            counter.innerHTML = count
-                    
-                            if (tech === '*') {
-                              updateSelectOptions(selectTechnologies, Array.from(filteredLabels), 'Todas as tecnologias')
-                            }
-                    
-                            if (type === '*') {
-                              updateSelectOptions(selectTypes, Array.from(filteredTypes), 'Todos os tipos')
-                            }
-                          }
-                    
-                          selectTechnologies.addEventListener('change', () => {
-                            selectTypes.value = '*'
-                            updateOptions()
-                          })
-                    
-                          selectTypes.addEventListener('change', () => {
-                            updateOptions()
-                          })
-                    
-                          updateOptions()
-                        })
-                    })
-                    </script>
-                    
-            </div>
-        </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+                  if (index === items.length - 1) html += `</div>`
+                })
+
+                container.insertAdjacentHTML('beforeend', html)
+
+                const selectTechnologies = document.querySelector('.js-filter-technologies')
+                const selectTypes = document.querySelector('.js-filter-types')
+                const itemsDOM = document.querySelectorAll('.js-item-portfolio')
+                const counter = document.querySelector('.js-portfolio-count')
+
+                function updateSelectOptions(select, optionsArray, defaultLabel) {
+                  const prevValue = select.value
+                  select.innerHTML = `<option value="*" selected>${defaultLabel}</option>`
+                  optionsArray.forEach(opt => {
+                    select.insertAdjacentHTML('beforeend', `<option value="${opt}">${opt}</option>`)
+                  })
+                  if (optionsArray.includes(prevValue)) {
+                    select.value = prevValue
+                  } else {
+                    select.value = '*'
+                  }
+                }
+
+                function updateOptions() {
+                  const tech = selectTechnologies.value
+                  const type = selectTypes.value
+                  let count = 0
+
+                  let filteredTypes = new Set()
+                  let filteredLabels = new Set()
+
+                  itemsDOM.forEach(item => {
+                    const itemTech = item.getAttribute('data-technologies')
+                    const itemType = item.getAttribute('data-type')
+
+                    const matchTech = tech === '*' || itemTech === tech
+                    const matchType = type === '*' || itemType === type
+
+                    if (matchTech && matchType) count++
+
+                    if (tech === '*' && (type === '*' || matchType)) filteredLabels.add(itemTech)
+                    if (type === '*' && (tech === '*' || matchTech)) filteredTypes.add(itemType)
+                    if (tech !== '*' && type !== '*' && matchTech && matchType) {
+                      filteredLabels.add(itemTech)
+                      filteredTypes.add(itemType)
+                    }
+                  })
+
+                  itemsDOM.forEach(item => {
+                    const itemTech = item.getAttribute('data-technologies')
+                    const itemType = item.getAttribute('data-type')
+                    const show = (tech === '*' || itemTech === tech) && (type === '*' || itemType === type)
+                    item.classList.toggle('is-visible', show)
+                  })
+
+                  counter.innerHTML = count
+
+                  if (tech === '*') {
+                    updateSelectOptions(selectTechnologies, Array.from(filteredLabels), 'Todas as tecnologias')
+                  }
+
+                  if (type === '*') {
+                    updateSelectOptions(selectTypes, Array.from(filteredTypes), 'Todos os tipos')
+                  }
+                }
+
+                selectTechnologies.addEventListener('change', () => {
+                  selectTypes.value = '*'
+                  updateOptions()
+                })
+
+                selectTypes.addEventListener('change', () => {
+                  updateOptions()
+                })
+
+                updateOptions()
+
+
+                const toggleDialog = (key) => {
+                  const dialog = document.querySelector(`.js-dialog-portfolio[data-key='${key}']`);
+                  if (dialog.open) {
+                    dialog.close();
+                  } else {
+                    dialog.showModal();
+                  }
+                }
+
+                itemsDOM.forEach(function (item, key) {
+
+                  item.addEventListener('click', function () {
+                    toggleDialog(key);
+                  })
+
+                })
+
+              })
+
+
+
+          })
+        </script>
+
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
 </html>
