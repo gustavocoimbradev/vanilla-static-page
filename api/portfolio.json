@@ -343,6 +343,15 @@
         { "label": "PHP/SQL", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
+    },
+    {
+      "image": "assets/img/carteirinha-digital-fadiva.png",
+      "name": "Carteirinha Digital",
+      "description": "Educacional",
+      "badges": [
+        { "label": "PHP/SQL", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
     }
   ]
 }
