@@ -251,7 +251,7 @@
       "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -260,7 +260,16 @@
       "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/telecenter-eletronica.png",
+      "name": "Telecenter Eletrônica",
+      "type": "E-commerce",
+      "badges": [
+        { "label": "Shopify", "color": "#fff" },
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -269,7 +278,7 @@
       "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -278,7 +287,7 @@
       "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -287,7 +296,7 @@
       "type": "Institucional",
       "badges": [
         { "label": "HTML/CSS/JS", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -296,7 +305,7 @@
       "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -305,7 +314,7 @@
       "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -314,7 +323,7 @@
       "type": "Imobiliária",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -323,7 +332,7 @@
       "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -332,7 +341,7 @@
       "type": "Educacional",
       "badges": [
         { "label": "Laravel", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -341,7 +350,7 @@
       "type": "Educacional",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -350,7 +359,7 @@
       "type": "Educacional",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     },
     {
@@ -359,7 +368,7 @@
       "type": "Landing Page",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Insiderblue", "color": "#fff" }
+        { "label": "Freelancer", "color": "#fff" }
       ]
     }
   ]
