@@ -58,12 +58,34 @@
                         color: rgba(color(light), .8);
                     }
                 }
+                div {
+                    position: absolute;
+                    bottom: 1rem;
+                    right: 1rem;
+                    background: color(accent);
+                    color: color(light);
+                    padding: .5rem;
+                    border-radius: .5rem;
+                    z-index: 2;   
+                    display: grid;
+                    place-items: center;
+                    font-size: .8rem;
+                    border: solid 1px color(accent);
+                    span {
+                        transform: translateY(1px);
+                    }
+                }
                 &:hover {
                     &::before {
                         opacity: 0;
                     }
                     figcaption {
                         opacity: 0;
+                    }
+                    div {
+                        color: color(accent);
+                        background: transparent;
+                        opacity: .7;
                     }
                 }
             }

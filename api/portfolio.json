@@ -1,142 +1,174 @@
 {
-    "preheading": "Projetos reais",
-    "heading": "Portfolio",
-    "items": [
-      {
-        "image": "assets/img/santander.png",
-        "name": "Santander",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/bradesco.png",
-        "name": "Bradesco",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/americanas.png",
-        "name": "Americanas",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/azul.png",
-        "name": "Azul",
-        "description": "Landing Page"
-      },
-      {
-        "image": "assets/img/evoltz.png",
-        "name": "Evoltz",
-        "description": "Institucional"
-      },
-      {
-        "image": "assets/img/skopos.png",
-        "name": "Skopos",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/4um.png",
-        "name": "4UM",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/azevedo-travessos.png",
-        "name": "Azevedo Travessos",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/serena.png",
-        "name": "Serena",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/minum-genco.png",
-        "name": "Minum Genco",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/ybyra.png",
-        "name": "Ybyra",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/pampa-energia.png",
-        "name": "Pampa Energia",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/nts-brasil.png",
-        "name": "NTS Brasil",
-        "description": "Institucional"
-      },
-      {
-        "image": "assets/img/wcfo-brazil.png",
-        "name": "WCFO Brazil",
-        "description": "Institucional"
-      },
-      {
-        "image": "assets/img/mills.png",
-        "name": "Mills",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/mallplaza.png",
-        "name": "Mallplaza",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/super-league-news.png",
-        "name": "Super League News",
-        "description": "Landing Page"
-      },
-      {
-        "image": "assets/img/azquest.png",
-        "name": "AZ Quest",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/a-better-xwell.png",
-        "name": "A Better Xwell",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/phronesis.png",
-        "name": "Phronesis",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/grupo-decio.png",
-        "name": "Grupo Decio",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/blp-capital.png",
-        "name": "BLP Capital",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/harbour-capital.png",
-        "name": "Harbour Capital",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/galoppo.png",
-        "name": "Galoppo",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/tech4humans.png",
-        "name": "Tech4humans",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/patria-pice.png",
-        "name": "Pátria Pice",
-        "description": "Investidores"
-      },
-      {
-        "image": "assets/img/locaweb.png",
-        "name": "Locaweb",
-        "description": "Investidores"
-      }
-    ]
-  }
-  
+  "preheading": "Projetos reais",
+  "heading": "Portfolio",
+  "items": [
+    {
+      "image": "assets/img/santander.png",
+      "name": "Santander",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/bradesco.png",
+      "name": "Bradesco",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/americanas.png",
+      "name": "Americanas",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/azul.png",
+      "name": "Azul",
+      "description": "Landing Page",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/evoltz.png",
+      "name": "Evoltz",
+      "description": "Institucional",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/skopos.png",
+      "name": "Skopos",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/4um.png",
+      "name": "4UM",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/azevedo-travessos.png",
+      "name": "Azevedo Travessos",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/serena.png",
+      "name": "Serena",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/minum-genco.png",
+      "name": "Minum Genco",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/ybyra.png",
+      "name": "Ybyra",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/pampa-energia.png",
+      "name": "Pampa Energia",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/nts-brasil.png",
+      "name": "NTS Brasil",
+      "description": "Institucional",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/wcfo-brazil.png",
+      "name": "WCFO Brazil",
+      "description": "Institucional",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/mills.png",
+      "name": "Mills",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/mallplaza.png",
+      "name": "Mallplaza",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/super-league-news.png",
+      "name": "Super League News",
+      "description": "Landing Page",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/azquest.png",
+      "name": "AZ Quest",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/a-better-xwell.png",
+      "name": "A Better Xwell",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/phronesis.png",
+      "name": "Phronesis",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/grupo-decio.png",
+      "name": "Grupo Decio",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/blp-capital.png",
+      "name": "BLP Capital",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/harbour-capital.png",
+      "name": "Harbour Capital",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/galoppo.png",
+      "name": "Galoppo",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/tech4humans.png",
+      "name": "Tech4humans",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/patria-pice.png",
+      "name": "Pátria Pice",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/locaweb.png",
+      "name": "Locaweb",
+      "description": "Investidores",
+      "from": "MZ"
+    },
+    {
+      "image": "assets/img/rad-advogados.png",
+      "name": "RAD Advogados",
+      "description": "Landing Page",
+      "from": "IB"
+    }
+  ]
+}
