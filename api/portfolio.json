@@ -1,11 +1,11 @@
 {
-  "preheading": "Projetos reais",
+  "preheading": "Projetos publicados",
   "heading": "Portfolio",
   "items": [
     {
       "image": "assets/img/santander.png",
       "name": "Santander",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -14,7 +14,7 @@
     {
       "image": "assets/img/bradesco.png",
       "name": "Bradesco",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -23,7 +23,7 @@
     {
       "image": "assets/img/americanas.png",
       "name": "Americanas",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -32,7 +32,7 @@
     {
       "image": "assets/img/azul.png",
       "name": "Azul",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -41,7 +41,7 @@
     {
       "image": "assets/img/evoltz.png",
       "name": "Evoltz",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -50,7 +50,7 @@
     {
       "image": "assets/img/skopos.png",
       "name": "Skopos",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -59,7 +59,7 @@
     {
       "image": "assets/img/4um.png",
       "name": "4UM",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -68,7 +68,7 @@
     {
       "image": "assets/img/azevedo-travessos.png",
       "name": "Azevedo Travessos",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -77,7 +77,7 @@
     {
       "image": "assets/img/serena.png",
       "name": "Serena",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -86,7 +86,7 @@
     {
       "image": "assets/img/minum-genco.png",
       "name": "Minum Genco",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -95,7 +95,7 @@
     {
       "image": "assets/img/ybyra.png",
       "name": "Ybyra",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -104,7 +104,7 @@
     {
       "image": "assets/img/pampa-energia.png",
       "name": "Pampa Energia",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -113,7 +113,7 @@
     {
       "image": "assets/img/nts-brasil.png",
       "name": "NTS Brasil",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -122,7 +122,7 @@
     {
       "image": "assets/img/wcfo-brazil.png",
       "name": "WCFO Brazil",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -131,7 +131,7 @@
     {
       "image": "assets/img/mills.png",
       "name": "Mills",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -140,7 +140,7 @@
     {
       "image": "assets/img/mallplaza.png",
       "name": "Mallplaza",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -149,7 +149,7 @@
     {
       "image": "assets/img/super-league-news.png",
       "name": "Super League News",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -158,7 +158,7 @@
     {
       "image": "assets/img/azquest.png",
       "name": "AZ Quest",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -167,7 +167,7 @@
     {
       "image": "assets/img/a-better-xwell.png",
       "name": "A Better Xwell",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -176,7 +176,7 @@
     {
       "image": "assets/img/phronesis.png",
       "name": "Phronesis",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -185,7 +185,7 @@
     {
       "image": "assets/img/grupo-decio.png",
       "name": "Grupo Decio",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -194,7 +194,7 @@
     {
       "image": "assets/img/blp-capital.png",
       "name": "BLP Capital",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -203,7 +203,7 @@
     {
       "image": "assets/img/harbour-capital.png",
       "name": "Harbour Capital",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -212,7 +212,7 @@
     {
       "image": "assets/img/galoppo.png",
       "name": "Galoppo",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -221,7 +221,7 @@
     {
       "image": "assets/img/tech4humans.png",
       "name": "Tech4humans",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -230,7 +230,7 @@
     {
       "image": "assets/img/patria-pice.png",
       "name": "Pátria Pice",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -239,7 +239,7 @@
     {
       "image": "assets/img/locaweb.png",
       "name": "Locaweb",
-      "description": "Investidores",
+      "type": "Investidores",
       "badges": [
         { "label": "Wordpress", "color": "#fff" },
         { "label": "MZ Group", "color": "#fff" }
@@ -248,7 +248,7 @@
     {
       "image": "assets/img/rad-advogados.png",
       "name": "RAD Advogados",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -257,7 +257,7 @@
     {
       "image": "assets/img/viana-e-arantes.png",
       "name": "Viana & Arantes",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -266,7 +266,7 @@
     {
       "image": "assets/img/gsl-advogados.png",
       "name": "GSL Advogados",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -275,7 +275,7 @@
     {
       "image": "assets/img/mr-blanks.png",
       "name": "MR Blanks",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -284,7 +284,7 @@
     {
       "image": "assets/img/eveliny-jhovana.png",
       "name": "Eveliny Jhovana",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "HTML/CSS/JS", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -293,7 +293,7 @@
     {
       "image": "assets/img/dra-evelyne-borges-de-mattos.png",
       "name": "Dra. Evelyne Borges de Mattos",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -302,7 +302,7 @@
     {
       "image": "assets/img/sagrado-design.png",
       "name": "Sagrado Design",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -311,7 +311,7 @@
     {
       "image": "assets/img/ferreira-junior.png",
       "name": "Ferreira Júnior",
-      "description": "Imobiliária",
+      "type": "Imobiliária",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -320,7 +320,7 @@
     {
       "image": "assets/img/projeto-futuro-militar.png",
       "name": "Projeto Futuro Militar",
-      "description": "Institucional",
+      "type": "Institucional",
       "badges": [
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -329,7 +329,7 @@
     {
       "image": "assets/img/fadiva-academy.png",
       "name": "Fadiva Academy",
-      "description": "Educacional",
+      "type": "Educacional",
       "badges": [
         { "label": "Laravel", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -338,7 +338,7 @@
     {
       "image": "assets/img/fadiva-digital.png",
       "name": "Fadiva Digital",
-      "description": "Educacional",
+      "type": "Educacional",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -347,7 +347,7 @@
     {
       "image": "assets/img/carteirinha-digital-fadiva.png",
       "name": "Carteirinha Digital",
-      "description": "Educacional",
+      "type": "Educacional",
       "badges": [
         { "label": "Vanilla PHP", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -356,7 +356,7 @@
     {
       "image": "assets/img/insiderblue.png",
       "name": "Insiderblue",
-      "description": "Landing Page",
+      "type": "Landing Page",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
@@ -365,7 +365,7 @@
     {
       "image": "assets/img/typingjs.png",
       "name": "TypingJS",
-      "description": "Library",
+      "type": "Biblioteca",
       "badges": [
         { "label": "Vanilla JS", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -374,7 +374,7 @@
     {
       "image": "assets/img/nickinho.png",
       "name": "Nickinho",
-      "description": "Chatbot/IA",
+      "type": "Chatbot/IA",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -383,7 +383,7 @@
     {
       "image": "assets/img/my-finances.png",
       "name": "My Finances",
-      "description": "Dashboard",
+      "type": "Dashboard",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -392,7 +392,7 @@
     {
       "image": "assets/img/calculo-pj.png",
       "name": "Cálculo PJ",
-      "description": "Utilitário",
+      "type": "Utilitário",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -401,7 +401,7 @@
     {
       "image": "assets/img/catflight.png",
       "name": "Catflight",
-      "description": "Minigame",
+      "type": "Minigame",
       "badges": [
         { "label": "Vanilla JS", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -410,7 +410,7 @@
     {
       "image": "assets/img/qr-code-generator.png",
       "name": "QR Code Generator",
-      "description": "Utilitário",
+      "type": "Utilitário",
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -419,9 +419,18 @@
     {
       "image": "assets/img/mdcalculator.png",
       "name": "MD Calculator",
-      "description": "Utilitário",
+      "type": "Utilitário",
       "badges": [
         { "label": "React", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/swiftpad.png",
+      "name": "Swiftpad",
+      "type": "Utilitário",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
         { "label": "Gustavo Coimbra", "color": "#fff" }
       ]
     }
