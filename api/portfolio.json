@@ -262,6 +262,69 @@
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
+    },
+    {
+      "image": "assets/img/gsl-advogados.png",
+      "name": "GSL Advogados",
+      "description": "Landing Page",
+      "badges": [
+        { "label": "Wordpress/Elementor", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/mr-blanks.png",
+      "name": "MR Blanks",
+      "description": "Landing Page",
+      "badges": [
+        { "label": "Wordpress/Elementor", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/eveliny-jhovana.png",
+      "name": "Eveliny Jhovana",
+      "description": "Institucional",
+      "badges": [
+        { "label": "HTML/CSS/JS", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/dra-evelyne-borges-de-mattos.png",
+      "name": "Dra. Evelyne Borges de Mattos",
+      "description": "Institucional",
+      "badges": [
+        { "label": "Wordpress/Elementor", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/sagrado-design.png",
+      "name": "Sagrado Design",
+      "description": "Landing Page",
+      "badges": [
+        { "label": "Wordpress/Elementor", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/ferreira-junior.png",
+      "name": "Ferreira Júnior",
+      "description": "Imobiliária",
+      "badges": [
+        { "label": "PHP/MySQL", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/projeto-futuro-militar.png",
+      "name": "Projeto Futuro Militar",
+      "description": "Institucional",
+      "badges": [
+        { "label": "Wordpress/Elementor", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
     }
   ]
 }
