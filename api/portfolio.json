@@ -325,6 +325,15 @@
         { "label": "Wordpress/Elementor", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
+    },
+    {
+      "image": "assets/img/fadiva-academy.png",
+      "name": "Fadiva Academy",
+      "description": "Educacional",
+      "badges": [
+        { "label": "Laravel", "color": "#fff" },
+        { "label": "Insiderblue", "color": "#fff" }
+      ]
     }
   ]
 }
