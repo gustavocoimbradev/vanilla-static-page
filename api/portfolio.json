@@ -361,6 +361,69 @@
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
       ]
+    },
+    {
+      "image": "assets/img/typingjs.png",
+      "name": "TypingJS",
+      "description": "Library",
+      "badges": [
+        { "label": "Vanilla JS", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/nickinho.png",
+      "name": "Nickinho",
+      "description": "Chatbot/IA",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/my-finances.png",
+      "name": "My Finances",
+      "description": "Dashboard",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/calculo-pj.png",
+      "name": "Cálculo PJ",
+      "description": "Utilitário",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/catflight.png",
+      "name": "Catflight",
+      "description": "Minigame",
+      "badges": [
+        { "label": "Vanilla JS", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/qr-code-generator.png",
+      "name": "QR Code Generator",
+      "description": "Utilitário",
+      "badges": [
+        { "label": "React/Next.js", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
+    },
+    {
+      "image": "assets/img/mdcalculator.png",
+      "name": "MD Calculator",
+      "description": "Utilitário",
+      "badges": [
+        { "label": "React", "color": "#fff" },
+        { "label": "Gustavo Coimbra", "color": "#fff" }
+      ]
     }
   ]
 }
