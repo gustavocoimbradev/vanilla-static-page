@@ -21,7 +21,7 @@
                 position: relative;
                 cursor: pointer;
                 &, *, &::before {
-                    transition: all .3s ease-in;
+                    transition: all .3s ease-in !important;
                 }
                 &::before {
                     content: '';
@@ -53,17 +53,27 @@
                     flex-direction: column;
                     gap: .2rem;
                     text-align: center;
+                    width: calc(100% - 2rem);
+                    h2 {
+                        font-size: 1.2rem;
+                    }
                     p {
+                        font-size: 1rem;
                         color: rgba(color(light), .8);
                     }
                 }
                 div {
                     position: absolute;
-                    bottom: .8rem;
-                    right: .8rem;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
                     display: flex;
                     gap: .5rem;
                     flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+                    padding: .8rem;
+                    z-index: 2;
                     >span {
                         padding: .4rem;
                         padding-bottom: .2rem;
@@ -72,6 +82,7 @@
                         display: grid;
                         place-items: center;
                         font-size: .7rem;
+                        border: solid 1px;
                     }
                 }
                 &:hover {
