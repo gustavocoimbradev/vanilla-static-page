@@ -284,6 +284,211 @@
 
       </div>
     </section>
+    <section class="s-lab" id="lab">
+      <div class="c-container">
+        <script defer>
+          document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.s-lab .c-container')
+            axios.get('/api/lab.json')
+              .then(response => {
+                const data = response.data
+                const items = data.items
+                let labels = []
+                let types = []
+
+                const shuffle = (array) => {
+                  for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                  }
+                  return array;
+                }
+
+                shuffle(items);
+
+                items.forEach(item => {
+                  if (!labels.includes(item.badges[0].label)) labels.push(item.badges[0].label)
+                  if (!types.includes(item.type)) types.push(item.type)
+                })
+
+                let labelsHTML = ''
+                labels.forEach(label => {
+                  labelsHTML += `<option>${label}</option>`
+                })
+
+                let typesHTML = ''
+                types.forEach(type => {
+                  typesHTML += `<option>${type}</option>`
+                })
+
+                let html = `
+                            <div class="s-lab__header">
+                              <div>
+                                <h5>${data.preheading}</h5>
+                                <h1>${data.heading} (<span class="js-lab-count">${items.length}</span>)</h1>
+                              </div>
+                              <form>
+                                <select class="js-filter-technologies">
+                                  <option value="*" selected>Todas as tecnologias</option>
+                                  ${labelsHTML}
+                                </select>
+                                <select class="js-filter-types">
+                                  <option value="*" selected>Todos os tipos</option>
+                                  ${typesHTML}
+                                </select>
+                              </form>
+                            </div>
+                          `
+
+                items.forEach((item, index) => {
+                  if (index === 0) html += `<div class="s-lab__items">`
+                  let badgesHTML = ''
+                  item.badges.forEach(badge => {
+                    badgesHTML += `<span>${badge.label}</span>`
+                  })
+                  html += `
+                              <figure data-key="${index}" class="js-item-lab is-visible" data-type="${item.type}" data-technologies="${item.badges[0].label}" data-company="${item.badges[1]?.label || ''}">
+                                <img src="${item.image}" alt="" width="400" height="800">
+                                <figcaption>
+                                  <h2>${item.name}</h2>
+                                  <p>${item.type}</p>
+                                </figcaption>
+                                <div>${badgesHTML}</div>
+                              </figure>
+                              <dialog class="js-dialog-lab" data-key="${index}">
+                                <img src="${item.image}" alt="" width="400" height="800">
+                              </dialog>
+                            `
+                  if (index === items.length - 1) html += `</div>`
+                })
+
+                container.insertAdjacentHTML('beforeend', html)
+
+                const selectTechnologies = document.querySelector('.js-filter-technologies')
+                const selectTypes = document.querySelector('.js-filter-types')
+                const itemsDOM = document.querySelectorAll('.js-item-lab')
+                const counter = document.querySelector('.js-lab-count')
+
+                function updateSelectOptions(select, optionsArray, defaultLabel) {
+                  const prevValue = select.value
+                  select.innerHTML = `<option value="*" selected>${defaultLabel}</option>`
+                  optionsArray.forEach(opt => {
+                    select.insertAdjacentHTML('beforeend', `<option value="${opt}">${opt}</option>`)
+                  })
+                  if (optionsArray.includes(prevValue)) {
+                    select.value = prevValue
+                  } else {
+                    select.value = '*'
+                  }
+                }
+
+                function updateOptions() {
+                  const tech = selectTechnologies.value
+                  const type = selectTypes.value
+                  let count = 0
+
+                  let filteredTypes = new Set()
+                  let filteredLabels = new Set()
+
+                  itemsDOM.forEach(item => {
+                    const itemTech = item.getAttribute('data-technologies')
+                    const itemType = item.getAttribute('data-type')
+
+                    const matchTech = tech === '*' || itemTech === tech
+                    const matchType = type === '*' || itemType === type
+
+                    if (matchTech && matchType) count++
+
+                    if (tech === '*' && (type === '*' || matchType)) filteredLabels.add(itemTech)
+                    if (type === '*' && (tech === '*' || matchTech)) filteredTypes.add(itemType)
+                    if (tech !== '*' && type !== '*' && matchTech && matchType) {
+                      filteredLabels.add(itemTech)
+                      filteredTypes.add(itemType)
+                    }
+                  })
+
+                  itemsDOM.forEach(item => {
+                    const itemTech = item.getAttribute('data-technologies')
+                    const itemType = item.getAttribute('data-type')
+                    const show = (tech === '*' || itemTech === tech) && (type === '*' || itemType === type)
+                    item.classList.toggle('is-visible', show)
+                  })
+
+                  counter.innerHTML = count
+
+                  if (tech === '*') {
+                    updateSelectOptions(selectTechnologies, Array.from(filteredLabels), 'Todas as tecnologias')
+                  }
+
+                  if (type === '*') {
+                    updateSelectOptions(selectTypes, Array.from(filteredTypes), 'Todos os tipos')
+                  }
+                }
+
+                selectTechnologies.addEventListener('change', () => {
+                  selectTypes.value = '*'
+                  updateOptions()
+                })
+
+                selectTypes.addEventListener('change', () => {
+                  updateOptions()
+                })
+
+                updateOptions()
+
+                const closeAllDialogs = () => {
+                  const dialogs = document.querySelectorAll(`.js-dialog-lab`);
+                  dialogs.forEach(function (dialog, _) {
+                    dialog.close();
+                  })
+                }
+
+                const openDialog = (key) => {
+                  const dialog = document.querySelector(`.js-dialog-lab[data-key='${key}']`);
+                  dialog.showModal();
+                }
+
+                const toggleDialog = (key) => {
+                  const dialog = document.querySelector(`.js-dialog-lab[data-key='${key}']`);
+                  if (dialog.open) {
+                    closeAllDialogs();
+                  } else {
+                    openDialog(key);
+                  }
+                }
+
+
+                itemsDOM.forEach(function (item, key) {
+
+                  item.addEventListener('click', function () {
+                    toggleDialog(key);
+                  })
+
+                })
+
+                document.querySelectorAll('.js-dialog-lab').forEach(dialog => {
+                  dialog.addEventListener('click', (e) => {
+                    if (e.target === dialog) {
+                      closeAllDialogs();
+                    }
+                  });
+                });
+
+                document.addEventListener('keydown', (e) => {
+                  if (e.key === 'Escape') {
+                    closeAllDialogs();
+                  }
+                });
+
+              })
+
+
+
+          })
+        </script>
+
+      </div>
+    </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>

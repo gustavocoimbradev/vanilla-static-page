@@ -1,5 +1,5 @@
 {
-  "preheading": "Projetos publicados",
+  "preheading": "Projetos reais",
   "heading": "Portfolio",
   "items": [
     {
@@ -360,87 +360,6 @@
       "badges": [
         { "label": "React/Next.js", "color": "#fff" },
         { "label": "Insiderblue", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/typingjs.png",
-      "name": "TypingJS",
-      "type": "Biblioteca",
-      "badges": [
-        { "label": "Vanilla JS", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/nickinho.png",
-      "name": "Nickinho",
-      "type": "Chatbot/IA",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/my-finances.png",
-      "name": "My Finances",
-      "type": "Dashboard",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/calculo-pj.png",
-      "name": "Cálculo PJ",
-      "type": "Utilitário",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/catflight.png",
-      "name": "Catflight",
-      "type": "Minigame",
-      "badges": [
-        { "label": "Vanilla JS", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/qr-code-generator.png",
-      "name": "QR Code Generator",
-      "type": "Utilitário",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/mdcalculator.png",
-      "name": "MD Calculator",
-      "type": "Utilitário",
-      "badges": [
-        { "label": "React", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/swiftpad.png",
-      "name": "Swiftpad",
-      "type": "Utilitário",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
-      ]
-    },
-    {
-      "image": "assets/img/you-thumb.png",
-      "name": "Youthumb",
-      "type": "Utilitário",
-      "badges": [
-        { "label": "React/Next.js", "color": "#fff" },
-        { "label": "Gustavo Coimbra", "color": "#fff" }
       ]
     }
   ]
