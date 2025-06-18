@@ -79,7 +79,7 @@
         "name": "Laravel Authentication",
         "type": "Autenticação",
         "badges": [
-          { "label": "React/Next.js", "color": "#fff" },
+          { "label": "Laravel", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
         ]
       },
