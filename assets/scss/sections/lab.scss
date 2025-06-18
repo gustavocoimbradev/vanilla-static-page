@@ -2,7 +2,6 @@
     background: color(dark);
 
 
-
     &__header {
         display: flex;
         flex-direction: column;
@@ -63,13 +62,14 @@
             grid-template-columns: 1fr 1fr 1fr;
         }
 
-        >figure {
+        >a {
             height: 250px;
             overflow: hidden;
             border-radius: 1rem;
             position: relative;
             cursor: pointer;
             display: none;
+            color: color(light);
 
             &.is-visible {
                 display: block;

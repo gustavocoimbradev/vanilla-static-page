@@ -350,17 +350,14 @@
                     badgesHTML += `<span>${badge.label}</span>`
                   })
                   html += `
-                              <figure data-key="${index}" class="js-item-lab is-visible" data-type="${item.type}" data-technologies="${item.badges[0].label}" data-company="${item.badges[1]?.label || ''}">
+                              <a href="${item.url}" target="_blank" data-key="${index}" class="js-item-lab is-visible" data-type="${item.type}" data-technologies="${item.badges[0].label}" data-company="${item.badges[1]?.label || ''}">
                                 <img src="${item.image}" alt="" width="400" height="800">
                                 <figcaption>
                                   <h2>${item.name}</h2>
                                   <p>${item.type}</p>
                                 </figcaption>
                                 <div>${badgesHTML}</div>
-                              </figure>
-                              <dialog class="js-dialog-lab" data-key="${index}">
-                                <img src="${item.image}" alt="" width="400" height="800">
-                              </dialog>
+                              </a>
                             `
                   if (index === items.length - 1) html += `</div>`
                 })
