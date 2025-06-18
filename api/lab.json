@@ -6,6 +6,7 @@
         "image": "assets/img/typingjs.png",
         "name": "TypingJS",
         "type": "Biblioteca",
+        "url": "https://github.com/gustavocoimbradev/typingjs",
         "badges": [
           { "label": "Vanilla JS", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -15,6 +16,7 @@
         "image": "assets/img/nickinho.png",
         "name": "Nickinho",
         "type": "Chatbot/IA",
+        "url": "https://github.com/gustavocoimbradev/nickinho",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -33,6 +35,7 @@
         "image": "assets/img/calculo-pj.png",
         "name": "Cálculo PJ",
         "type": "Utilitário",
+        "url": "https://github.com/gustavocoimbradev/my-finances",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -42,6 +45,7 @@
         "image": "assets/img/catflight.png",
         "name": "Catflight",
         "type": "Minigame",
+        "url": "https://github.com/gustavocoimbradev/catflight",
         "badges": [
           { "label": "Vanilla JS", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -51,6 +55,7 @@
         "image": "assets/img/qr-code-generator.png",
         "name": "QR Code Generator",
         "type": "Utilitário",
+        "url": "https://github.com/gustavocoimbradev/qrcode-generator",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -60,6 +65,7 @@
         "image": "assets/img/mdcalculator.png",
         "name": "MD Calculator",
         "type": "Utilitário",
+        "url": "https://github.com/gustavocoimbradev/mdcalculator",
         "badges": [
           { "label": "React", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -69,6 +75,7 @@
         "image": "assets/img/swiftpad.png",
         "name": "Swiftpad",
         "type": "Utilitário",
+        "url": "https://github.com/gustavocoimbradev/swiftpad",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -78,6 +85,7 @@
         "image": "assets/img/laravel-authentication.png",
         "name": "Laravel Authentication",
         "type": "Autenticação",
+        "url": "https://github.com/gustavocoimbradev/laravel-authentication",
         "badges": [
           { "label": "Laravel", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
@@ -87,6 +95,7 @@
         "image": "assets/img/you-thumb.png",
         "name": "Youthumb",
         "type": "Utilitário",
+        "url": "https://github.com/gustavocoimbradev/youthumb",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
