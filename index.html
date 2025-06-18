@@ -126,11 +126,11 @@
                                 <h1>${data.heading} (<span class="js-portfolio-count">${items.length}</span>)</h1>
                               </div>
                               <form>
-                                <select class="js-filter-technologies">
+                                <select class="js-filter-technologies-portfolio">
                                   <option value="*" selected>Todas as tecnologias</option>
                                   ${labelsHTML}
                                 </select>
-                                <select class="js-filter-types">
+                                <select class="js-filter-types-portfolio">
                                   <option value="*" selected>Todos os tipos</option>
                                   ${typesHTML}
                                 </select>
@@ -162,8 +162,8 @@
 
                 container.insertAdjacentHTML('beforeend', html)
 
-                const selectTechnologies = document.querySelector('.js-filter-technologies')
-                const selectTypes = document.querySelector('.js-filter-types')
+                const selectTechnologies = document.querySelector('.js-filter-technologies-portfolio')
+                const selectTypes = document.querySelector('.js-filter-types-portfolio')
                 const itemsDOM = document.querySelectorAll('.js-item-portfolio')
                 const counter = document.querySelector('.js-portfolio-count')
 
@@ -331,11 +331,11 @@
                                 <h1>${data.heading} (<span class="js-lab-count">${items.length}</span>)</h1>
                               </div>
                               <form>
-                                <select class="js-filter-technologies">
+                                <select class="js-filter-technologies-lab">
                                   <option value="*" selected>Todas as tecnologias</option>
                                   ${labelsHTML}
                                 </select>
-                                <select class="js-filter-types">
+                                <select class="js-filter-types-lab">
                                   <option value="*" selected>Todos os tipos</option>
                                   ${typesHTML}
                                 </select>
@@ -364,8 +364,8 @@
 
                 container.insertAdjacentHTML('beforeend', html)
 
-                const selectTechnologies = document.querySelector('.js-filter-technologies')
-                const selectTypes = document.querySelector('.js-filter-types')
+                const selectTechnologies = document.querySelector('.js-filter-technologies-lab')
+                const selectTypes = document.querySelector('.js-filter-types-lab')
                 const itemsDOM = document.querySelectorAll('.js-item-lab')
                 const counter = document.querySelector('.js-lab-count')
 
