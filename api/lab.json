@@ -35,7 +35,7 @@
         "image": "assets/img/calculo-pj.png",
         "name": "Cálculo PJ",
         "type": "Utilitário",
-        "url": "https://github.com/gustavocoimbradev/my-finances",
+        "url": "https://github.com/gustavocoimbradev/calculo-pj",
         "badges": [
           { "label": "React/Next.js", "color": "#fff" },
           { "label": "Gustavo Coimbra", "color": "#fff" }
