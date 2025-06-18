@@ -75,6 +75,15 @@
         ]
       },
       {
+        "image": "assets/img/laravel-authentication.png",
+        "name": "Laravel Authentication",
+        "type": "Autenticação",
+        "badges": [
+          { "label": "React/Next.js", "color": "#fff" },
+          { "label": "Gustavo Coimbra", "color": "#fff" }
+        ]
+      },
+      {
         "image": "assets/img/you-thumb.png",
         "name": "Youthumb",
         "type": "Utilitário",
