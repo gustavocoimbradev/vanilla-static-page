@@ -52,6 +52,16 @@
         ]
       },
       {
+        "image": "assets/img/book-review.png",
+        "name": "Laravel Book Review",
+        "type": "Plataforma",
+        "url": "https://github.com/gustavocoimbradev/laravel-review-book",
+        "badges": [
+          { "label": "Laravel", "color": "#fff" },
+          { "label": "Gustavo Coimbra", "color": "#fff" }
+        ]
+      },
+      {
         "image": "assets/img/catflight.png",
         "name": "Catflight",
         "type": "Minigame",
